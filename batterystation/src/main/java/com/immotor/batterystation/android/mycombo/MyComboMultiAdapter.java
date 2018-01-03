@@ -92,7 +92,7 @@ public class MyComboMultiAdapter extends BaseMultiItemQuickAdapter<MyComboMultip
                                 String source1 = mContext.getString(R.string.resides)+" "+"<font color='white'>" + data1.getResidue() + "</font>"+" "+mContext.getString(R.string.times);
                                 helper.setText(R.id.item_my_combo_residue_times, Html.fromHtml(source1))
                                         .setText(R.id.item_my_combo_current_price_tv, mContext.getString(R.string.china_money_symbol) + (int)data1.getPrice())
-                                        .setText(R.id.item_my_combo_times_tv, data1.getTimes() + R.string.times)
+                                        .setText(R.id.item_my_combo_times_tv, data1.getTimes() + mContext.getString(R.string.times))
                                         .setText(R.id.item_my_combo_name,data1.getPackageName())
                                 ;
                                 helper.getView(R.id.item_my_combo_times_effect).setVisibility(View.GONE);

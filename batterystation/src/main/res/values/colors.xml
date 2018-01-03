@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">#f5f5f5</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ec5218</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#1aad19</color>
+    <color name="blue">#0000FF</color>
+    <color name="white">#ffffff</color>
+    <color name="lucency_white">#E6ffffff</color>
+    <color name="black">#000000</color>
+    <color name="common_bg_color">#f7f7f8</color>
+    <color name="common_bg_color_dark">#202631</color>
+    <color name="station_dsb_bg">#e8592a</color>
+    <color name="station_order_bg">#da430b</color>
+    <color name="nav_text_color">#2C3239</color>
+
+    <color name="dialog_tittle_color">#333333</color>
+    <color name="dialog_content_color">#999999</color>
+    <color name="dialog_bg_color">#f5f5f5</color>
+    <color name="no_net_button_tv_color">#E6442B</color>
+    <color name="content_background">#F1F1F1</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_70">#B2FFFFFF</color>
+    <color name="red_01">#F44336</color>
+    <color name="pink_01">#E91E63</color>
+    <color name="indigo_01">#3F51B5</color>
+    <color name="blue_01">#2196F3</color>
+    <color name="blue_02">#0091EA</color>
+    <color name="lightblue_01">#03A9F4</color>
+    <color name="purple_01">#9C27B0</color>
+    <color name="green_01">#4CAF50</color>
+    <color name="lightgreen_01">#8BC34A</color>
+    <color name="yellow_01">#FFEB3B</color>
+    <color name="orange_01">#FF9800</color>
+    <color name="orange_02">#F55005</color>
+    <color name="grey_01">#9E9E9E</color>
+    <color name="grey_02">#a7787878</color>
+    <color name="transparent_grey">#17000000</color>
+    <color name="light_grey">#E6E6E6</color>
+    <color name="light_grey2">#e2e6e6e6</color>
+    <color name="light_grey3">#f8f4f4f4</color>
+    <color name="line_grey">#DEDEDE</color>
+    <color name="dark_grey">#222222</color>
+    <color name="gray">@android:color/darker_gray</color>
+    <color name="press_color">#f1ffffff</color>
+    <color name="press_color_ripple">#f1565656</color>
+
+    <color name="black_normal">#1b1b1b</color>
+    <color name="card_view_gray">#25292a</color>
+    <color name="gray_text">#808080</color>
+    <color name="gray_light">#999999</color>
+    <color name="gray_more">#666666</color>
+    <color name="gray_greater">#333333</color>
+    <color name="battery_creat_time">#a5a5a5</color>
+
+    <color name="gray_text_light">#b3b3b3</color>
+    <color name="hit_text_gray">#CCCCCC</color>
+    <color name="dividing_line">#F7F7F7</color>
+    <color name="dividing_line2">#D6D6D6</color>
+    <color name="batter_wave_color_blue">#00cfd1</color>
+    <color name="batter_wave_color_yellow">#f77c29</color>
+    <color name="batter_wave_color_red">#ff2e41</color>
+
+    <color name="blue_light_color">#64e5e5</color>
+    <color name="blue_heavy_color">#0deaea</color>
+
+    <color name="mask_white">#4bffffff</color>
+    <color name="fence_black">#595F6B</color>
+    <color name="health_blue">#0093dd</color>
+    <color name="health_yellow">#ff9f00</color>
+    <color name="health_red">#ff3333</color>
+    <color name="health_circle_gray">#84cccccc</color>
+
+    <color name="ripple_gray">#9CCC</color>
+    <color name="ripple_orange">#CB3F0A</color>
+
+    <color name="translucent">#01000000</color>
+
+    <color name="gray_1">#333333</color>
+    <color name="gray_2">#666666</color>
+</resources>

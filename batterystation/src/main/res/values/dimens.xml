@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- An extra margin -->
+    <dimen name="measure_8">8dp</dimen>
+    <dimen name="navigation_icon_size">18dp</dimen>
+</resources>

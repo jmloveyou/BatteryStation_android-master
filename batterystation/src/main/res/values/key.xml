@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:ignore="MissingTranslation">
+
+    <string name="amap_api_key">040bb6019bf28352458ba2e9e45137cf</string>
+    <string name="google_maps_release_key">AIzaSyB10CIlQ0-mpMgmc6irHsR5tyLl6zK5UUs</string>
+    <string name="google_maps_server_key">AIzaSyDEJrxbj7OnByHr0-_qEQQ7bAw3GLurtpo</string>
+    <!-- AIzaSyAN9brXcEdvyncovhKeNJF6SzcXz9JZBk8 --><!-- google map debug -->
+    <!-- AIzaSyB10CIlQ0-mpMgmc6irHsR5tyLl6zK5UUs --><!-- google map release  -->
+
+</resources>

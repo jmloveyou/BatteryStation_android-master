@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_actionbar_layout" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:gravity="center">
+      <ImageView
+          android:layout_marginStart="18dp"
+          android:layout_marginEnd="18dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@mipmap/ba_id_ico"/>
+
+      <TextView
+          android:textColor="@color/dialog_content_color"
+          android:textSize="16sp"
+          android:text="@string/id"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="right">
+          <TextView
+              android:id="@+id/car_batttery_id"
+              android:textColor="@color/black"
+              android:textSize="16sp"
+              android:layout_marginEnd="18dp"
+              android:text="000"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+      </LinearLayout>
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ba_circle_ico"/>
+
+        <TextView
+            android:textColor="@color/dialog_content_color"
+            android:textSize="16sp"
+            android:text="@string/inflation_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/car_batttery_times"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginEnd="18dp"
+                android:text="10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ba_current_ico"/>
+
+        <TextView
+            android:textColor="@color/dialog_content_color"
+            android:textSize="16sp"
+            android:text="@string/rated_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/car_batttery_current"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginEnd="18dp"
+                android:text="1200mA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ba_voltage_ico"/>
+
+        <TextView
+            android:textColor="@color/dialog_content_color"
+            android:textSize="16sp"
+            android:text="@string/nominal_voltage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/car_batttery_voltage"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginEnd="18dp"
+                android:text="1v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>

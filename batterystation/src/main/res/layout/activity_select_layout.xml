@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/my_select_combo_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_actionbar_layout" />
+
+        <ViewStub
+            android:id="@+id/combo_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/common_step_layout" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/select_combo_scrowview"
+        android:layout_below="@+id/my_select_combo_actionbar"
+        android:layout_above="@+id/select_combo_update_bottom_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/select_combo_data_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <!--
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/select_combo_head" />-->
+
+
+            <!--   <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginEnd="14dp"
+                   android:layout_marginStart="14dp"
+                   android:layout_marginTop="5dp"
+                   android:text="包月套餐" />-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/select_combo_recyView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="14dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/select_combo_no_update_data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_select_combo_actionbar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/my_combo_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/no_uppdate_combo_tv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_combo_update_bottom_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="14dp"
+            android:text="@string/uppdate_combo_text" />
+
+        <TextView
+            android:id="@+id/select_combo_sure"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:background="@mipmap/add_btn_bg"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <include layout="@layout/include_no_net_layout" />
+
+</RelativeLayout>

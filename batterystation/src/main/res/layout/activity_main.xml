@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.immotor.batterystation.android.ui.activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/get_power_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getPowerStation" />
+
+        <Button
+            android:id="@+id/get_station_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getPowerStationDetail" />
+
+        <Button
+            android:id="@+id/rent_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rentBattery" />
+
+        <Button
+            android:id="@+id/update_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="updateBattery" />
+
+        <Button
+            android:id="@+id/cancle_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancelRent" />
+
+        <Button
+            android:id="@+id/get_my_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getMyRent" />
+
+        <Button
+            android:id="@+id/query_for_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="queryForRent" />
+
+        <Button
+            android:id="@+id/start_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startMap" />
+    </LinearLayout>
+
+</RelativeLayout>

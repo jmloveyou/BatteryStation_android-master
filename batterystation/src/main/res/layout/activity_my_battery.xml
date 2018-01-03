@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/my_battery_toolbar"
+        layout="@layout/common_actionbar_layout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/my_battery_toolbar"
+        android:layout_above="@+id/my_battery_explain"
+        android:id="@+id/my_battery_recyview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:id="@+id/my_battery_explain"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_above="@+id/my_battery_bottom_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginBottom="7dp"
+        android:textColor="#A5A5A5"
+        android:text="@string/my_battery_msg"/>
+    <LinearLayout
+        android:id="@+id/my_battery_bottom_llyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center">
+
+        <TextView
+            android:clickable="true"
+            android:visibility="visible"
+            android:id="@+id/my_battery_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:background="@mipmap/buy_btn_bg"
+            android:layout_marginEnd="34dp"
+            android:text="@string/bind_battery"/>
+
+        <TextView
+            android:id="@+id/my_battery_rent"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@mipmap/add_btn_bg"
+            android:text="@string/rent_battery"/>
+        <TextView
+            android:id="@+id/my_battery_buy"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginStart="34dp"
+            android:background="@mipmap/buy_btn_bg"
+            android:visibility="gone"
+            android:text="@string/buy_battery"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_battery_no_battery"
+        android:layout_below="@+id/my_battery_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/no_battery_img"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="@string/not_add_battery"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/include_no_net_layout" />
+</RelativeLayout>

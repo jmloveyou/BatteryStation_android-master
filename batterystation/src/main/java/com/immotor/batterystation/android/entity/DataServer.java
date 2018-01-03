@@ -45,6 +45,7 @@ public class DataServer {
         //所有数据添加顺序不要动
         boolean hasComboNotE = true;
         boolean hasComboE = true;
+        boolean hasAutoRent=false;
         int a = 1;
         List<MyComboMultipleItem> list = new ArrayList<>();
         for (int i = 0; i < datalist.size(); i++) {
@@ -56,7 +57,10 @@ public class DataServer {
                 }
                 if (datalist.get(i).getType() == 0) {
                     list.add(a, new MyComboMultipleItem(MyComboMultipleItem.COMMON_COMBO, datalist.get(i)));
+                    if (!hasAutoRent) {
                     list.add(a+1,new MyComboMultipleItem(MyComboMultipleItem.AUTO_RENEW));
+                    hasAutoRent=true;
+                    }
                     a = a + 1;
                 } else {
                     list.add( new MyComboMultipleItem(MyComboMultipleItem.COMMON_COMBO, datalist.get(i)));

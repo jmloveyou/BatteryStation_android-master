@@ -9,7 +9,7 @@ import java.io.File;
  */
 
 public class MyConfiguration {
-    private static boolean TestStatus=false;
+    private static boolean TestStatus=true;
 
  //   public static final String CURRENT_SERVER_NOMAL_URL = "http://119.23.130.199:80/";
     /*116.62.11.10：8080*//*119.23.130.199:80*/

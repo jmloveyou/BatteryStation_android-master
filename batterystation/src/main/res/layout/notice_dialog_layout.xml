@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notice_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp"
+    android:minWidth="200dp"
+    android:padding="10dp"
+    android:background="@mipmap/map_notice_dialog_bg"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/e_60"
+        android:layout_above="@+id/notice_sure"/>
+    <TextView
+        android:id="@+id/notice_sure"
+        android:background="@mipmap/map_notice_dialog_tv_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/sure"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="#f06d1e"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
